@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-  cout << "SHA-1 with 1 iteration" << endl;
+  cout << "SHA-1 with 1 iteration!!" << endl;
   cout << Crypto::hex(Crypto::sha1("Test")) << endl << endl;
   
   cout << "SHA-1 with two iterations" << endl;
